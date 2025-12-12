@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+scr/donor_junction_analysis.egg-info/PKG-INFO
+scr/donor_junction_analysis.egg-info/SOURCES.txt
+scr/donor_junction_analysis.egg-info/dependency_links.txt
+scr/donor_junction_analysis.egg-info/entry_points.txt
+scr/donor_junction_analysis.egg-info/requires.txt
+scr/donor_junction_analysis.egg-info/top_level.txt

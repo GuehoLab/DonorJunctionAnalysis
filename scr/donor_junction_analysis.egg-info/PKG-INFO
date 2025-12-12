@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: donor-junction-analysis
+Version: 0.1.0
+Summary: A bioinformatics pipeline for analyzing mutations and donor junctions.
+Author: Your Name
+License-File: LICENSE
+Requires-Dist: pysam==0.23.3
+Requires-Dist: matplotlib==3.10.7
+Requires-Dist: edlib==1.3.9
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,4 @@
+[console_scripts]
+donor_junction_analysis = DonorJunctionAnalysis:main
+junction_analyze_mut = junction_analyze_mut:main
+junction_trim_insert = junction_trim_insert:main

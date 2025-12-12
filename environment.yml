@@ -1,0 +1,22 @@
+# environment.yml
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core Python and Dependencies
+  - python=3.10
+  - pip
+
+  # Bioinformatic Tools (Bioconda/Conda-forge)
+  - bowtie2=2.5.4
+  - samtools=1.21
+  - cutadapt=5.1
+  
+  # Python Libraries (Pip or Conda-forge)
+  - pysam=0.23.3
+  - matplotlib=3.10.7
+  - edlib=1.3.9
+  
