@@ -11,7 +11,7 @@
 
 The following core requirements are necessary to run the pipeline:
 
-#### Prerequisites
+#### Requirements
 
 | Requirement | Version |
 | :--- | :--- |
@@ -44,6 +44,8 @@ mamba activate mutation_analysis_env
 pip install -e .
 ```
 
+~5–10 minutes on a standard desktop computer
+
 ### 📝 Usage
 
 The tool is executed using a single command that requires several positional arguments.
@@ -73,6 +75,8 @@ You can run the provided example script within the cloned directory (ensure your
 chmod +x ./example_run.sh
 ./example_run.sh
 ```
+
+Expected runtime is ~2–5 minutes on a standard desktop computer
 
 ### ⚙️ Parameters (Full Options List)
 
@@ -106,4 +110,5 @@ The primary output file, showing UMI-deduplicated mutation patterns where the de
 | **insert\_position** | The **genomic position** where the sequence was aligned/inserted. | |
 | **count** | **UMI-deduplicated count** for this specific mutation pattern. | The number of unique DNA molecules detected with this outcome. |
 | **(%)** | **Percentage** of this mutation pattern among all filtered UMI clusters. | |
+
 
